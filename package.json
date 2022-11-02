@@ -1,0 +1,23 @@
+{
+  "name": "ts-virtualize",
+  "version": "1.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "@types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build:lib": "rm -rf @types lib && tsc --build tsconfig.lib.json"
+  },
+  "author": "akimyou@icloud.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-typescript": "^7.9.0",
+    "@types/jest": "^25.2.3",
+    "jest": "^26.0.1",
+    "ts-node": "^8.10.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {}
+}

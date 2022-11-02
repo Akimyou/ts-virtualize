@@ -16,8 +16,6 @@ Can use by `react-hook-form` or `antd form item` to improve static type checking
 
 ## Usage
 
-Config [hosted npm](https://repo.advai.net/advgit/atome-fe/docs/-/blob/master/standard/hosted-npm.md) first, than:
-
 ```sh
 npm i -S ts-virtualize
 ```
@@ -73,4 +71,5 @@ Attention for compatibility
 
 - ES6 Symbol
 - ES6 Proxy
+
 # ts-virtualize
