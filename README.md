@@ -52,6 +52,23 @@ const virtualArrayPeople = virtualize<People>();
 console.log(virtualToArray(virtualPeople.wife.name) // ['wife', 'name']
 ```
 
+### Useful regex
+
+```shell
+# 1. replace table coloum dataIndex
+
+# from
+ dataIndex: '([a-z][A-Z]*)'
+# to
+ dataIndex: `${tvObject.$1}`
+
+# 2. replace form field
+# from
+ field="([a-z][A-Z]*)"
+# to
+ field={`${tvObject.$1}`}
+```
+
 ## Functions
 
 - virtualize
